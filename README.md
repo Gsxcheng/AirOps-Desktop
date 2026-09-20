@@ -16,6 +16,27 @@ or Internet access at runtime.
 
 > Current status: early public release `v0.1.0`
 
+## Screenshots
+
+### Device inventory
+
+<p align="center">
+  <img src="./docs/images/devices.png" alt="AirOps Desktop device inventory" width="95%">
+</p>
+
+### Command and device templates
+
+<table>
+  <tr>
+    <td width="50%"><img src="./docs/images/command-templates.png" alt="AirOps Desktop command templates"></td>
+    <td width="50%"><img src="./docs/images/device-templates.png" alt="AirOps Desktop device templates"></td>
+  </tr>
+  <tr>
+    <td align="center">Command templates</td>
+    <td align="center">Device templates</td>
+  </tr>
+</table>
+
 ## Why AirOps Desktop
 
 Many production, industrial, enterprise and security-sensitive networks cannot

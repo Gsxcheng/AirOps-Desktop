@@ -15,6 +15,27 @@ AirOps Desktop 是一个面向 **内网、隔离网、受限网络、无公网�
 
 > 当前状态：早期公开版 `v0.1.0`
 
+## 软件截图
+
+### 设备管理
+
+<p align="center">
+  <img src="./docs/images/devices.png" alt="AirOps Desktop 设备管理" width="95%">
+</p>
+
+### 命令模板与设备模板
+
+<table>
+  <tr>
+    <td width="50%"><img src="./docs/images/command-templates.png" alt="AirOps Desktop 命令模板"></td>
+    <td width="50%"><img src="./docs/images/device-templates.png" alt="AirOps Desktop 设备模板"></td>
+  </tr>
+  <tr>
+    <td align="center">命令模板</td>
+    <td align="center">设备模板</td>
+  </tr>
+</table>
+
 ## 为什么做 AirOps Desktop
 
 很多生产网、专网、政企内网、实验环境和安全敏感网络无法直接使用 SaaS、云端 Agent 或在线运维平台。
