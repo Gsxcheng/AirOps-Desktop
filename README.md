@@ -91,6 +91,10 @@ documented templates:
 Production device definitions, credentials, private addresses, internal command
 sets and operational data are not included in the public repository.
 
+AirOps Desktop uses **one codebase**. Environment-specific device templates and
+credentials live only in the local SQLite data directory, so private deployments
+do not require a separate application fork.
+
 ## Portable layout
 
 ~~~text
