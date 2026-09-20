@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "airops-desktop"
+version = "0.1.0"
+description = "Lightweight offline-first desktop network operations toolkit for isolated environments."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = { text = "MIT" }
+authors = [{ name = "Gsxcheng" }]
+dependencies = [
+  "paramiko>=3.5,<4",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pyinstaller>=6,<7",
+]
+
+[project.scripts]
+airops-desktop = "airops_desktop.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

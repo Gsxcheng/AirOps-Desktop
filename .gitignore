@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+*.spec
+
+# Portable runtime data. These may contain credentials or device output.
+data/
+logs/
+results/
+imports/
+release/*
+!release/.gitkeep
+
+.env
+*.sqlite
+*.sqlite3
+*.db
